@@ -1,6 +1,8 @@
 {
   "name": "shrinky-react",
-  "displayName": "shrinky-react",
+  "displayName": "Shrinky React",
+  "icon": "images/shrinky-react-logo.png",
+  "publisher": "arnavhavoc",
   "description": "ShrinkyReact: Automatically clean up unused dependencies in your React projects. Keep your package.json lean and your node_modules clutter-free with one simple command.",
   "version": "0.0.1",
   "engines": {
@@ -11,6 +13,11 @@
   ],
   "activationEvents": [],
   "main": "./extension.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnavhavoc/shrinky-react"
+  },
   "contributes": {
     "commands": [
       {
